@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Favorites</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Github Favorites</h1>
+        <div class="search">
+          <label for="input-search"></label>
+          <input
+            id="input-search"
+            type="text"
+            placeholder="Usuário do Github"
+          />
+          <button>&plus;</button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img
+                src="https://github.com/GabrielRARodrigues.png"
+                alt="Imagem de Gabriel Rodrigues"
+              />
+              <a href="https://github.com/GabrielRARodrigues">
+                <p>Gabriel Rodrigues</p>
+                <span>GabrielRARodrigues</span>
+              </a>
+            </td>
+            <td class="repositories">62</td>
+            <td class="followers">1</td>
+            <td><button>&times;</button></td>
+          </tr>
+          <tr>
+            <td class="user">
+              <img
+                src="https://github.com/diego3g.png"
+                alt="Imagem de Gabriel Rodrigues"
+              />
+              <a href="https://github.com/diego3g" target="_blank">
+                <p>Diego Fernandes</p>
+                <span>diego3g</span>
+              </a>
+            </td>
+            <td class="repositories">48</td>
+            <td class="followers">22503</td>
+            <td><button>&times;</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
